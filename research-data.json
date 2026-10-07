@@ -1,0 +1,2229 @@
+{
+  "verified": "2026-10-07",
+  "companies": [
+    {
+      "id": "pfizer",
+      "name": "Pfizer 輝瑞",
+      "country": "美國",
+      "currency": "USD",
+      "unit": "million",
+      "periodLabel": "FY2025",
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "standard": "US GAAP",
+      "scope": "Pfizer Inc. and subsidiaries",
+      "revenue": {
+        "value": 62579,
+        "label": "Total revenues／合併總營收",
+        "source": "pfe25"
+      },
+      "netIncome": {
+        "value": 7771,
+        "label": "歸屬 Pfizer 普通股股東淨利",
+        "source": "pfe25"
+      },
+      "groupNetIncome": {
+        "value": 7812,
+        "label": "分配非控制權益前合併淨利",
+        "source": "pfe25"
+      },
+      "operatingIncome": {
+        "value": null,
+        "label": "合併營業利益：主表未單列",
+        "source": "pfe25",
+        "note": "不以 Biopharma 部門盈餘或 adjusted income 替代；主表直接列示稅前持續營業利益 7,520。"
+      },
+      "rd": {
+        "value": 10437,
+        "label": "Research and development expenses／研發費用",
+        "source": "pfe25",
+        "note": "另單列 acquired in-process R&D 費用 1,613；不要把此金額說成現金研發支出。"
+      },
+      "pharmaRevenue": {
+        "value": 61199,
+        "label": "Biopharma 部門營收",
+        "source": "pfe25"
+      },
+      "representativeDrug": {
+        "name": "Ibrance",
+        "generic": "palbociclib",
+        "sales": 4122,
+        "label": "Pfizer 認列的全球產品營收",
+        "source": "pfe25"
+      },
+      "additionalProducts": [
+        {
+          "name": "Eliquis",
+          "sales": 7961,
+          "source": "pfe25",
+          "note": "含與 BMS 合作認列的聯盟營收；不是 Eliquis 全市場總銷售。"
+        },
+        {
+          "name": "Comirnaty",
+          "sales": 4367,
+          "source": "pfe25",
+          "note": "Pfizer 認列的產品／聯盟營收口徑，不應與 BioNTech 營收直接相加。"
+        }
+      ],
+      "boundaries": [
+        {
+          "text": "2020 年 Upjohn 分拆並與 Mylan 合併為 Viatris；跨年比較須注意持續營業重編。",
+          "sources": [
+            "pfeupjohn"
+          ]
+        },
+        {
+          "text": "2023 年 12 月收購 Seagen；2024 起包含完整年度的該業務。",
+          "sources": [
+            "pfeseagen"
+          ]
+        }
+      ],
+      "recentAnnualPoints": [
+        {
+          "year": 2023,
+          "revenue": 59553,
+          "netIncome": 2119,
+          "rd": 10679
+        },
+        {
+          "year": 2024,
+          "revenue": 63627,
+          "netIncome": 8031,
+          "rd": 10822
+        }
+      ],
+      "recentPointSource": "pfe25"
+    },
+    {
+      "id": "merck",
+      "name": "Merck & Co.／MSD 默沙東",
+      "country": "美國",
+      "currency": "USD",
+      "unit": "million",
+      "periodLabel": "FY2025",
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "standard": "US GAAP",
+      "scope": "Merck & Co., Inc. and subsidiaries；不是德國 Merck KGaA",
+      "revenue": {
+        "value": 65011,
+        "label": "Sales／合併銷售收入",
+        "source": "mrk25"
+      },
+      "netIncome": {
+        "value": 18254,
+        "label": "歸屬 Merck & Co. 淨利",
+        "source": "mrk25"
+      },
+      "groupNetIncome": {
+        "value": 18263,
+        "label": "合併淨利",
+        "source": "mrk25"
+      },
+      "operatingIncome": {
+        "value": null,
+        "label": "合併營業利益：主表未單列",
+        "source": "mrk25",
+        "note": "主表列示 Income Before Taxes 21,067，不應把它直接命名為營業利益。"
+      },
+      "rd": {
+        "value": 15789,
+        "label": "Research and development／研發費用",
+        "source": "mrk25"
+      },
+      "pharmaRevenue": {
+        "value": 58142,
+        "label": "Pharmaceutical 部門銷售（人用藥與疫苗）",
+        "source": "mrk25"
+      },
+      "representativeDrug": {
+        "name": "Keytruda／Keytruda Qlex",
+        "generic": "pembrolizumab；Qlex 另含 berahyaluronidase alfa",
+        "sales": 31680,
+        "label": "兩種劑型合計銷售",
+        "source": "mrk25"
+      },
+      "boundaries": [
+        {
+          "text": "合併營收也含 Animal Health（2025 年 6,354）及其他收入；2021 年完成 Organon 分拆。",
+          "sources": [
+            "mrk25",
+            "mrkorganon"
+          ]
+        }
+      ],
+      "recentAnnualPoints": [
+        {
+          "year": 2023,
+          "revenue": 60115,
+          "netIncome": 365,
+          "rd": 30531
+        },
+        {
+          "year": 2024,
+          "revenue": 64168,
+          "netIncome": 17117,
+          "rd": 17938
+        }
+      ],
+      "recentPointSource": "mrk25"
+    },
+    {
+      "id": "roche",
+      "name": "Roche 羅氏",
+      "country": "瑞士",
+      "currency": "CHF",
+      "unit": "million",
+      "periodLabel": "FY2025",
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "standard": "IFRS",
+      "scope": "Roche Group（製藥與診斷）",
+      "revenue": {
+        "value": 61516,
+        "label": "Sales／合併銷售額",
+        "source": "roche25"
+      },
+      "totalRevenueIncludingOther": {
+        "value": 63356,
+        "label": "Revenue／含其他收入的總收入",
+        "source": "roche25",
+        "note": "主卡建議清楚用「銷售額 61,516」，不能把 Sales 與總 Revenue 混稱。"
+      },
+      "netIncome": {
+        "value": 12880,
+        "label": "歸屬 Roche 股東淨利",
+        "source": "roche25"
+      },
+      "groupNetIncome": {
+        "value": 13799,
+        "label": "IFRS 合併淨利（含非控制權益）",
+        "source": "roche25"
+      },
+      "operatingIncome": {
+        "value": 18476,
+        "label": "IFRS operating profit／營業利益",
+        "source": "roche25"
+      },
+      "rd": {
+        "value": 13352,
+        "label": "IFRS research and development／研發費用",
+        "source": "roche25"
+      },
+      "pharmaRevenue": {
+        "value": 47669,
+        "label": "Pharmaceuticals Division 銷售額",
+        "source": "roche25results"
+      },
+      "representativeDrug": {
+        "name": "Ocrevus",
+        "generic": "ocrelizumab",
+        "sales": 7010,
+        "label": "羅氏認列的產品銷售額",
+        "source": "roche25results"
+      },
+      "coreMetricsForReference": {
+        "operatingIncome": 21833,
+        "rd": 12243,
+        "source": "roche25",
+        "note": "Core 是公司調整後非 IFRS 指標，不能和上面的 IFRS 數混用。"
+      },
+      "boundaries": [
+        {
+          "text": "集團包含製藥與診斷，不能把全集團營收當成藥品銷售。2009 年 Genentech 交易買入的是其非控制權益，報表按權益交易處理；不能簡化成 2009 年才首次併入整個 Genentech。",
+          "sources": [
+            "roche25results",
+            "rochegenentech"
+          ]
+        }
+      ],
+      "recentAnnualPoints": [
+        {
+          "year": 2024,
+          "revenue": 60495,
+          "netIncome": 8277,
+          "groupNetIncome": 9187,
+          "operatingIncome": 13417,
+          "rd": 15304,
+          "pharmaRevenue": 46171
+        }
+      ],
+      "recentPointSource": "roche25",
+      "additionalProducts": [
+        {
+          "name": "Hemlibra",
+          "sales": 4754,
+          "source": "roche25results",
+          "label": "2025 產品銷售額，CHF 百萬"
+        },
+        {
+          "name": "Herceptin",
+          "sales": 1028,
+          "source": "roche25results",
+          "label": "2025 產品銷售額，CHF 百萬"
+        }
+      ]
+    },
+    {
+      "id": "novartis",
+      "name": "Novartis 諾華",
+      "country": "瑞士",
+      "currency": "USD",
+      "unit": "million",
+      "periodLabel": "FY2025",
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "standard": "IFRS",
+      "scope": "持續營業／創新藥與持續公司活動；公司以美元報告",
+      "revenue": {
+        "value": 54532,
+        "label": "Net sales from continuing operations／持續營業淨銷售額",
+        "source": "nov25"
+      },
+      "otherRevenue": {
+        "value": 2142,
+        "label": "Other revenues／其他收入，未含於上列淨銷售額",
+        "source": "nov25"
+      },
+      "netIncome": {
+        "value": 13984,
+        "label": "歸屬 Novartis AG 股東淨利",
+        "source": "nov25"
+      },
+      "groupNetIncome": {
+        "value": 13967,
+        "label": "合併淨利（非控制權益虧損 -17）",
+        "source": "nov25"
+      },
+      "operatingIncome": {
+        "value": 17644,
+        "label": "Operating income from continuing operations／持續營業營業利益",
+        "source": "nov25"
+      },
+      "rd": {
+        "value": 11200,
+        "label": "Research and development／研發費用",
+        "source": "nov25"
+      },
+      "pharmaRevenue": {
+        "value": 54532,
+        "label": "創新藥淨銷售額（同上；勿再重複相加）",
+        "source": "nov25"
+      },
+      "representativeDrug": {
+        "name": "Cosentyx",
+        "generic": "secukinumab",
+        "sales": 6668,
+        "label": "產品淨銷售額",
+        "source": "nov25"
+      },
+      "boundaries": [
+        {
+          "text": "1996 年由 Ciba-Geigy 與 Sandoz 合併成立；2019 年分拆 Alcon，2023 年分拆 Sandoz。此處 2023–2025 銷售與營業利益採持續營業口徑，不能無註解接上舊全集團數列。",
+          "sources": [
+            "novhistory",
+            "novsandoz",
+            "nov25"
+          ]
+        }
+      ],
+      "recentAnnualPoints": [
+        {
+          "year": 2023,
+          "revenue": 45440,
+          "netIncome": 14850,
+          "groupNetIncome": 14854,
+          "continuingNetIncome": 8572,
+          "operatingIncome": 9769,
+          "rd": 11371
+        },
+        {
+          "year": 2024,
+          "revenue": 50317,
+          "netIncome": 11941,
+          "groupNetIncome": 11939,
+          "continuingNetIncome": 11939,
+          "operatingIncome": 14544,
+          "rd": 10022
+        }
+      ],
+      "recentPointSource": "nov25",
+      "recentPointCaveat": "2023 總淨利包含 Sandoz 分拆收益與其他終止營業損益；若畫營運獲利趨勢，改用 continuingNetIncome，且標示為集團持續營業淨利。",
+      "additionalProducts": [
+        {
+          "name": "Kymriah",
+          "sales": 381,
+          "source": "nov25",
+          "label": "2025 淨銷售額，USD 百萬",
+          "priorYear2024": 443,
+          "priorYear2023": 508,
+          "note": "2025 已列入 Established brands；不代表它是大型暢銷藥，請按實際金額展示。"
+        }
+      ]
+    },
+    {
+      "id": "novo",
+      "name": "Novo Nordisk 諾和諾德",
+      "country": "丹麥",
+      "currency": "DKK",
+      "unit": "million",
+      "periodLabel": "FY2025",
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "standard": "IFRS",
+      "scope": "Novo Nordisk consolidated group",
+      "revenue": {
+        "value": 309064,
+        "label": "Net sales／淨銷售額",
+        "source": "nvo25overview"
+      },
+      "netIncome": {
+        "value": 102434,
+        "label": "Net profit／合併淨利",
+        "source": "nvo25overview"
+      },
+      "operatingIncome": {
+        "value": 127658,
+        "label": "Operating profit／營業利益",
+        "source": "nvo25overview"
+      },
+      "rd": {
+        "value": 52039,
+        "label": "Research and development costs／研發費用",
+        "source": "nvo25performance"
+      },
+      "pharmaRevenue": {
+        "value": null,
+        "label": "未另設可與混合型集團相同的「製藥」匯總欄；請使用集團淨銷售額",
+        "source": "nvo25performance"
+      },
+      "representativeDrug": {
+        "name": "Ozempic",
+        "generic": "semaglutide",
+        "sales": 127089,
+        "label": "產品銷售額",
+        "source": "nvo25performance"
+      },
+      "boundaries": [
+        {
+          "text": "2000 年將酵素業務分拆為 Novozymes。2025 研發及成本含公司轉型重整影響；原始費用不可直接當成常態或現金支出。",
+          "sources": [
+            "nvo2000",
+            "nvo25performance"
+          ]
+        }
+      ],
+      "recentAnnualPoints": [
+        {
+          "year": 2021,
+          "revenue": 140800,
+          "netIncome": 47757,
+          "operatingIncome": 58644
+        },
+        {
+          "year": 2023,
+          "revenue": 232261,
+          "netIncome": 83683,
+          "operatingIncome": 102574
+        },
+        {
+          "year": 2024,
+          "revenue": 290403,
+          "netIncome": 100988,
+          "operatingIncome": 128339
+        }
+      ],
+      "recentPointSource": "nvo25overview"
+    },
+    {
+      "id": "takeda",
+      "name": "Takeda 武田藥品",
+      "country": "日本",
+      "currency": "JPY",
+      "unit": "million",
+      "periodLabel": "FY2024（2025/3/31 止）",
+      "start": "2024-04-01",
+      "end": "2025-03-31",
+      "standard": "IFRS",
+      "scope": "Takeda Pharmaceutical Company Limited and subsidiaries；單一製藥營運部門",
+      "revenue": {
+        "value": 4581551,
+        "label": "Revenue／合併營收",
+        "source": "tak24"
+      },
+      "netIncome": {
+        "value": 107928,
+        "label": "歸屬公司所有者淨利",
+        "source": "tak24"
+      },
+      "groupNetIncome": {
+        "value": 108143,
+        "label": "合併年度淨利",
+        "source": "tak24"
+      },
+      "operatingIncome": {
+        "value": 342586,
+        "label": "Operating profit／營業利益",
+        "source": "tak24"
+      },
+      "rd": {
+        "value": 730227,
+        "label": "Research and development expenses／研發費用",
+        "source": "tak24"
+      },
+      "pharmaRevenue": {
+        "value": 4495972,
+        "label": "Sales of pharmaceutical products／藥品銷售額",
+        "source": "tak24",
+        "note": "另有授權與服務收入 85,579，兩者合計才是 4,581,551。"
+      },
+      "representativeDrug": {
+        "name": "Entyvio",
+        "generic": "vedolizumab",
+        "sales": 914098,
+        "label": "產品營收",
+        "source": "tak24"
+      },
+      "boundaries": [
+        {
+          "text": "武田 FY2024 是 2024/4/1–2025/3/31；不是曆年 2025。為使主資料期間截至 2025，未使用至 2026/3/31 才結束的 FY2025。",
+          "sources": [
+            "tak24"
+          ]
+        },
+        {
+          "text": "2019/1/8 收購 Shire。2019/3/31 止年度只納入收購後約三個月；2020/3/31 止年度包含完整年度，故營收跳升不能全解釋為有機成長。",
+          "sources": [
+            "takshire",
+            "tak19boundary"
+          ]
+        }
+      ],
+      "recentAnnualPoints": [
+        {
+          "yearLabel": "FY2022，2023/3/31 止",
+          "revenue": 4027478,
+          "netIncome": 317017,
+          "operatingIncome": 490505,
+          "rd": 633325
+        },
+        {
+          "yearLabel": "FY2023，2024/3/31 止",
+          "revenue": 4263762,
+          "netIncome": 144067,
+          "operatingIncome": 214075,
+          "rd": 729924
+        }
+      ],
+      "recentPointSource": "tak24"
+    }
+  ],
+  "historyFinance": [
+    {
+      "company": "pfizer",
+      "year": 2022,
+      "currency": "USD",
+      "unit": "million",
+      "revenue": 100330,
+      "netIncome": 31372,
+      "label": "2022 歷史高營收節點",
+      "source": "pfe22",
+      "note": "收入與普通股股東歸屬淨利；可對照 2025，但不是常態成長率基準。"
+    },
+    {
+      "company": "novo",
+      "year": 2015,
+      "currency": "DKK",
+      "unit": "million",
+      "revenue": 107927,
+      "netIncome": 34860,
+      "operatingIncome": 49444,
+      "rd": 13608,
+      "label": "2015 營收與獲利節點",
+      "source": "nvo15",
+      "note": "當年營業利益包含部分出售 NNIT 的非經常性收益 2,376。"
+    },
+    {
+      "company": "takeda",
+      "yearLabel": "FY2019（2020/3/31 止）",
+      "start": "2019-04-01",
+      "end": "2020-03-31",
+      "currency": "JPY",
+      "unit": "million",
+      "revenue": 3291188,
+      "netIncome": 44241,
+      "operatingIncome": 100408,
+      "label": "併購 Shire 後第一個完整年度節點",
+      "source": "tak19",
+      "note": "比較前期須留意 Shire 納入月份；不可將併購效果視為有機成長。"
+    }
+  ],
+  "drugs": [
+    {
+      "id": "lipitor",
+      "companyId": "pfizer",
+      "company": "Pfizer 輝瑞（歷史代表）",
+      "brand": "Lipitor",
+      "generic": "atorvastatin（製劑為 atorvastatin calcium）",
+      "modality": "小分子藥物",
+      "class": "statin／HMG-CoA 還原酶抑制劑",
+      "firstFDAApproval": "1996-12-17",
+      "country": "美國",
+      "approvalType": "新藥核准",
+      "initialIndication": "配合飲食控制，降低特定高膽固醇血症與混合型血脂異常患者的膽固醇等血脂指標。",
+      "mechanismPlain": "抑制膽固醇合成途徑中的 HMG-CoA 還原酶，協助降低 LDL 膽固醇。",
+      "originType": "前身公司發現 → 共同推廣 → 收購",
+      "originator": "Parke-Davis Research（Warner-Lambert 旗下）",
+      "developmentAndCommercialization": "Warner-Lambert 開發；1996 年與 Pfizer 簽共同推廣協議。Pfizer 於 2000 年完成收購 Warner-Lambert。",
+      "historySummary": "Lipitor 是企業併購與大規模商業化的案例：品牌長期與 Pfizer 連結，但分子的原始發現應歸於 Parke-Davis。2020 年該品牌所在 Upjohn 業務轉入 Viatris。",
+      "studentTakeaway": "在品牌與公司配對之外，再問一次：誰發現、誰開發、誰取得權利？",
+      "events": [
+        {
+          "year": 1996,
+          "date": "1996-12-17",
+          "type": "核准",
+          "text": "FDA 核准 Lipitor；申請者為 Warner-Lambert 旗下 Parke-Davis。",
+          "sources": [
+            "lipitor-fda"
+          ]
+        },
+        {
+          "year": 1996,
+          "type": "合作",
+          "text": "Warner-Lambert 與 Pfizer 簽訂 Lipitor 共同推廣協議。",
+          "sources": [
+            "lipitor-history"
+          ]
+        },
+        {
+          "year": 2000,
+          "date": "2000-06",
+          "type": "併購",
+          "text": "Pfizer 完成收購 Warner-Lambert。",
+          "sources": [
+            "lipitor-history"
+          ]
+        },
+        {
+          "year": 2020,
+          "date": "2020-11-16",
+          "type": "業務分拆",
+          "text": "含 Lipitor 的 Upjohn 業務與 Mylan 合併成立 Viatris。",
+          "sources": [
+            "pfizer-upjohn",
+            "viatris-brands"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "lipitor-fda",
+          "title": "FDA：Lipitor 1996 原始核准函",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/pre96/020702_s000.pdf",
+          "supports": "1996-12-17；原始申請者、成分與適應症"
+        },
+        {
+          "id": "lipitor-history",
+          "title": "Pfizer：Warner-Lambert 歷史",
+          "url": "https://www.pfizer.com/about/history/pfizer_warner_lambert",
+          "supports": "Parke-Davis 發現；1996 合作推廣；2000 年 6 月收購完成"
+        },
+        {
+          "id": "pfizer-upjohn",
+          "title": "Pfizer SEC 公告：完成 Upjohn 與 Mylan 合併交易",
+          "url": "https://www.sec.gov/Archives/edgar/data/78003/000119312520294847/d82880dex991.htm",
+          "supports": "2020-11-16 交易完成"
+        },
+        {
+          "id": "viatris-brands",
+          "title": "Viatris 年報：Upjohn 品牌組合",
+          "url": "https://investor.viatris.com/static-files/80c709c0-39d1-46e4-8c5e-a9cc24e2a071",
+          "supports": "Lipitor 在 Upjohn 業務組合中"
+        }
+      ]
+    },
+    {
+      "id": "comirnaty",
+      "companyId": "pfizer",
+      "company": "Pfizer 輝瑞／BioNTech",
+      "brand": "Comirnaty（原始 BNT162b2）",
+      "generic": "COVID-19 Vaccine, mRNA；原始疫苗 INN：tozinameran",
+      "modality": "mRNA 疫苗",
+      "class": "核酸疫苗",
+      "firstFDAApproval": "2021-08-23",
+      "firstFDAEUA": "2020-12-11",
+      "country": "美國",
+      "approvalType": "2020 緊急使用授權；2021 正式 BLA 核准",
+      "initialIndication": "2021 首次正式核准用於 16 歲以上者，預防 SARS-CoV-2 引起的 COVID-19。",
+      "mechanismPlain": "以 mRNA 提供製造病毒抗原的短暫指令，使免疫系統建立辨識能力。",
+      "originType": "BioNTech 候選疫苗 → Pfizer／BioNTech 共同開發與商業化",
+      "originator": "BioNTech 的 BNT162 mRNA 疫苗計畫；建立在更廣泛的 mRNA 與脂質遞送研究上",
+      "developmentAndCommercialization": "BioNTech 與 Pfizer 在 2020 年宣布合作，推進臨床開發、製造與全球供應；各地權利安排不完全相同。FDA 正式核准授予 BioNTech Manufacturing GmbH。",
+      "historySummary": "這是研發平台與大型臨床試驗、製造供應能力結合的案例。稱作 Pfizer 疫苗會漏掉 BioNTech 的原始計畫與共同開發角色。",
+      "studentTakeaway": "緊急授權與正式核准是不同監管事件；合作夥伴也不等於被收購公司。",
+      "events": [
+        {
+          "year": 2020,
+          "date": "2020-03-17",
+          "type": "合作",
+          "text": "Pfizer 與 BioNTech 宣布合作推進 BioNTech 的 mRNA COVID-19 疫苗計畫。",
+          "sources": [
+            "comirnaty-collaboration"
+          ]
+        },
+        {
+          "year": 2020,
+          "date": "2020-12-11",
+          "type": "緊急授權",
+          "text": "FDA 發出 Pfizer–BioNTech COVID-19 疫苗緊急使用授權。",
+          "sources": [
+            "comirnaty-fda"
+          ]
+        },
+        {
+          "year": 2021,
+          "date": "2021-08-23",
+          "type": "正式核准",
+          "text": "FDA 正式核准 Comirnaty 用於 16 歲以上者。",
+          "sources": [
+            "comirnaty-fda"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "comirnaty-fda",
+          "title": "FDA：首款 COVID-19 疫苗正式核准",
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-covid-19-vaccine",
+          "supports": "EUA 與正式核准日期、原始核准族群、mRNA 機轉與申請人"
+        },
+        {
+          "id": "comirnaty-collaboration",
+          "title": "BioNTech：與 Pfizer 合作開發 COVID-19 疫苗詳情",
+          "url": "https://www.biontech.com/int/en/home/mediaroom/news/press-releases/2020/04/pfizer-and-biontech-announce-further-details-collaboration.html",
+          "supports": "BioNTech mRNA 計畫來源；2020-03-17 宣布合作與開發分工"
+        },
+        {
+          "id": "comirnaty-ema",
+          "title": "EMA：Comirnaty 產品與歷史資料",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/comirnaty",
+          "supports": "原始活性成分 tozinameran；原始版本與變異株更新版本的區分"
+        }
+      ]
+    },
+    {
+      "id": "keytruda",
+      "companyId": "merck",
+      "company": "Merck & Co.／MSD 默沙東",
+      "brand": "Keytruda",
+      "generic": "pembrolizumab",
+      "modality": "單株抗體",
+      "class": "PD-1 免疫檢查點抑制劑",
+      "firstFDAApproval": "2014-09-04",
+      "country": "美國",
+      "approvalType": "加速核准（首次適應症）",
+      "initialIndication": "無法手術切除或轉移性黑色素瘤，且在指定先前療法後仍惡化的患者。",
+      "mechanismPlain": "阻斷免疫細胞上的 PD-1 訊號，協助免疫系統對部分癌細胞恢復反應。",
+      "originType": "外部發現／抗體人源化 → 併購承接 → 臨床開發",
+      "originator": "Organon 科學家發現早期抗體 PD109.A；MRC Technology（現 LifeArc）參與人源化",
+      "developmentAndCommercialization": "Schering-Plough 於 2007 年收購 Organon BioSciences；2009 年與 Merck 合併，之後由 Merck／MSD 推進腫瘤臨床開發與上市。",
+      "historySummary": "Keytruda 並非從一開始就在 Merck 實驗室內誕生。其歷程串起小型研發團隊、抗體工程合作和兩次企業整合。",
+      "studentTakeaway": "靶點發現、候選抗體發現、人源化與臨床開發可以由不同團隊完成。",
+      "events": [
+        {
+          "year": 2007,
+          "date": "2007-11-19",
+          "type": "併購",
+          "text": "Schering-Plough 完成收購 Organon BioSciences。",
+          "sources": [
+            "keytruda-organon-deal"
+          ]
+        },
+        {
+          "year": 2009,
+          "date": "2009-11-03",
+          "type": "合併",
+          "text": "Merck 與 Schering-Plough 完成合併，承接候選藥物。",
+          "sources": [
+            "keytruda-merck-deal"
+          ]
+        },
+        {
+          "year": 2014,
+          "date": "2014-09-04",
+          "type": "核准",
+          "text": "Keytruda 首次獲 FDA 加速核准，用於指定晚期黑色素瘤。",
+          "sources": [
+            "keytruda-fda"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "keytruda-fda",
+          "title": "FDA：Keytruda 2014 原始核准文件",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/125514Orig1s000Approv.pdf",
+          "supports": "首核日期、成分、申請者、加速核准與適應症"
+        },
+        {
+          "id": "keytruda-lifearc",
+          "title": "LifeArc：Keytruda 的抗體發現與人源化",
+          "url": "https://www.lifearc.org/keytruda-the-best-selling-drug-that-nearly-wasnt/",
+          "supports": "Organon 發現 PD109.A；LifeArc/MRC Technology 人源化；後由 Merck 承接"
+        },
+        {
+          "id": "keytruda-organon-deal",
+          "title": "Schering-Plough SEC 8-K：Organon 收購完成",
+          "url": "https://www.sec.gov/Archives/edgar/data/310158/000095012307015913/y43140e8vk.htm",
+          "supports": "2007-11-19 收購完成"
+        },
+        {
+          "id": "keytruda-merck-deal",
+          "title": "Merck SEC 年報：2009 合併",
+          "url": "https://www.sec.gov/Archives/edgar/vprr/1001/10011519.pdf",
+          "supports": "2009-11-03 合併完成"
+        }
+      ]
+    },
+    {
+      "id": "januvia",
+      "companyId": "merck",
+      "company": "Merck & Co.／MSD 默沙東",
+      "brand": "Januvia",
+      "generic": "sitagliptin（製劑為 sitagliptin phosphate）",
+      "modality": "小分子藥物",
+      "class": "DPP-4 抑制劑",
+      "firstFDAApproval": "2006-10-16",
+      "country": "美國",
+      "approvalType": "新藥核准",
+      "initialIndication": "配合飲食與運動，改善第二型糖尿病的血糖控制；可單獨使用或與特定藥物合用。",
+      "mechanismPlain": "抑制分解腸泌素的 DPP-4 酵素，延長體內腸泌素的作用，協助調節血糖。",
+      "originType": "公司內部研究與開發",
+      "originator": "Merck Research Laboratories；1999 年啟動 DPP-4 抑制劑計畫",
+      "developmentAndCommercialization": "由 Merck 團隊進行分子發現、藥物開發與申請上市。",
+      "historySummary": "相較於 Keytruda 的外部來源，Januvia 展示 Merck 內部研發的另一種路徑：把腸泌素生物學轉化為口服小分子藥物。",
+      "studentTakeaway": "同一家藥廠的產品，可以同時來自內部發現、授權或收購。",
+      "events": [
+        {
+          "year": 1999,
+          "type": "研發",
+          "text": "Merck 啟動 DPP-4 抑制劑研發計畫。",
+          "sources": [
+            "januvia-discovery"
+          ]
+        },
+        {
+          "year": 2006,
+          "date": "2006-10-16",
+          "type": "核准",
+          "text": "FDA 核准 Januvia。",
+          "sources": [
+            "januvia-fda"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "januvia-fda",
+          "title": "FDA：Januvia 原始核准函",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2006/021995s000ltr.pdf",
+          "supports": "電子簽章 2006-10-16；成分、申請者與原始適應症"
+        },
+        {
+          "id": "januvia-discovery",
+          "title": "Thornberry、Weber：Januvia 發現研究（2007）",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17352677/",
+          "supports": "Merck 1999 年計畫起點及 sitagliptin 發現歷程"
+        }
+      ]
+    },
+    {
+      "id": "herceptin",
+      "companyId": "roche",
+      "company": "Roche 羅氏／Genentech",
+      "brand": "Herceptin",
+      "generic": "trastuzumab",
+      "modality": "單株抗體",
+      "class": "HER2 標靶抗體",
+      "firstFDAApproval": "1998-09-25",
+      "country": "美國",
+      "approvalType": "生物製劑核准",
+      "initialIndication": "特定 HER2 過度表現的轉移性乳癌。",
+      "mechanismPlain": "辨識 HER2 蛋白，干擾促進癌細胞生長的訊號，並可招募免疫反應。",
+      "originType": "Genentech 抗體工程＋學術／臨床合作；Roche 股權整合",
+      "originator": "Genentech 科學家與 UCLA 的 Dennis Slamon 等研究者共同推進 HER2 生物學與抗體治療",
+      "developmentAndCommercialization": "Genentech 創製與開發 trastuzumab；Roche 1990 年取得 Genentech 多數股權，2009 年完成剩餘股權收購。",
+      "historySummary": "HER2 的腫瘤生物學、抗體人源化、病人分群檢測與臨床試驗共同促成 Herceptin。它是精準腫瘤治療的重要案例。",
+      "studentTakeaway": "不是所有乳癌都使用同一標靶藥；生物標記能改變藥物開發與試驗的方式。",
+      "events": [
+        {
+          "year": 1985,
+          "type": "前史",
+          "text": "Genentech 研究者發表 HER2 基因選殖成果。",
+          "sources": [
+            "herceptin-story"
+          ]
+        },
+        {
+          "year": 1990,
+          "type": "前史",
+          "text": "Roche 取得 Genentech 多數股權。",
+          "sources": [
+            "roche-history"
+          ]
+        },
+        {
+          "year": 1992,
+          "type": "前史",
+          "text": "Genentech 發表將抗 HER2 鼠抗體人源化的研究。",
+          "sources": [
+            "herceptin-story"
+          ]
+        },
+        {
+          "year": 1998,
+          "date": "1998-09-25",
+          "type": "核准",
+          "text": "Herceptin 首次獲 FDA 核准。",
+          "sources": [
+            "herceptin-fda"
+          ]
+        },
+        {
+          "year": 2009,
+          "type": "併購",
+          "text": "Roche 收購 Genentech 剩餘股權。",
+          "sources": [
+            "roche-history"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "herceptin-fda",
+          "title": "FDA Purple Book：Herceptin",
+          "url": "https://purplebooksearch.fda.gov/index.cfm?blaNo=103792&event=productdetails",
+          "supports": "1998-09-25 首核、trastuzumab、Genentech 申請者"
+        },
+        {
+          "id": "herceptin-story",
+          "title": "Genentech：HER2 與 Herceptin 研發史",
+          "url": "https://www.gene.com/stories/her2/",
+          "supports": "HER2、Genentech 與 Slamon 合作、抗體人源化及初期乳癌用途"
+        },
+        {
+          "id": "herceptin-ucla",
+          "title": "UCLA：Dennis Slamon 研究與 Herceptin",
+          "url": "https://www.uclahealth.org/cancer/about-us/meet-our-leadership/dennis-slamon",
+          "supports": "學術與臨床研究貢獻"
+        },
+        {
+          "id": "roche-history",
+          "title": "Roche：公司歷史",
+          "url": "https://www.roche.ch/en/about/our-history",
+          "supports": "Genentech 1990 多數持股、2009 剩餘股權收購"
+        }
+      ]
+    },
+    {
+      "id": "hemlibra",
+      "companyId": "roche",
+      "company": "Roche 羅氏／Chugai 中外製藥／Genentech",
+      "brand": "Hemlibra",
+      "generic": "emicizumab；美國：emicizumab-kxwh",
+      "modality": "雙特異性抗體",
+      "class": "凝血因子 VIII 功能模擬抗體",
+      "firstFDAApproval": "2017-11-16",
+      "country": "美國",
+      "approvalType": "生物製劑核准",
+      "initialIndication": "預防或降低帶有第 VIII 凝血因子抑制抗體的 A 型血友病成人與兒童患者之出血頻率。",
+      "mechanismPlain": "同時結合活化的第 IX 凝血因子與第 X 因子，模擬部分第 VIII 因子的橋接功能。",
+      "originType": "Chugai 原創 → 集團內全球共同開發",
+      "originator": "Chugai Pharmaceutical（中外製藥）的抗體工程團隊",
+      "developmentAndCommercialization": "由 Chugai、Roche 與 Genentech 共同全球開發，美國由 Genentech 商業化。Chugai 2002 年透過戰略聯盟加入 Roche 集團。",
+      "historySummary": "Hemlibra 展示雙特異性抗體可以在癌症以外，設計來模擬缺乏蛋白的部分功能。應保留日本 Chugai 的創製歸屬。",
+      "studentTakeaway": "抗體不只會阻斷靶點，也能把兩個分子拉近，重建生理步驟。",
+      "events": [
+        {
+          "year": 2002,
+          "date": "2002-10",
+          "type": "聯盟",
+          "text": "Chugai 與 Roche 建立戰略聯盟，Roche 取得多數股權。",
+          "sources": [
+            "chugai-roche"
+          ]
+        },
+        {
+          "year": 2017,
+          "date": "2017-11-16",
+          "type": "核准",
+          "text": "FDA 首次核准 Hemlibra，用於有第 VIII 因子抑制抗體的 A 型血友病。",
+          "sources": [
+            "hemlibra-fda"
+          ]
+        },
+        {
+          "year": 2018,
+          "date": "2018-10-04",
+          "type": "擴適應症",
+          "text": "FDA 擴大至有或沒有第 VIII 因子抑制抗體的 A 型血友病。",
+          "sources": [
+            "hemlibra-expanded"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "hemlibra-fda",
+          "title": "FDA 孤兒藥核准紀錄：emicizumab-kxwh",
+          "url": "https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=416913",
+          "supports": "首次核准日期、原始與後續適應症"
+        },
+        {
+          "id": "hemlibra-origin",
+          "title": "Roche：Hemlibra 與 HAVEN 6 資料",
+          "url": "https://assets.roche.com/f/176343/e0ed069a4d/01-13122021_mr_haven6_en.pdf",
+          "supports": "Chugai 創製；三家公司共同開發；機轉與美國商業化"
+        },
+        {
+          "id": "chugai-roche",
+          "title": "Chugai：與 Roche 的聯盟歷史",
+          "url": "https://www.chugai-pharm.co.jp/english/profile/overview/history/history05.html",
+          "supports": "2002 年加入 Roche 集團；保持獨立營運模式"
+        },
+        {
+          "id": "hemlibra-expanded",
+          "title": "FDA：2018 Hemlibra 擴大核准",
+          "url": "https://www.fda.gov/drugs/drug-approvals-and-databases/fda-approves-emicizumab-kxwh-hemophilia-or-without-factor-viii-inhibitors",
+          "supports": "2018-10-04 擴適應症"
+        }
+      ]
+    },
+    {
+      "id": "gleevec",
+      "companyId": "novartis",
+      "company": "Novartis 諾華",
+      "brand": "Gleevec（部分市場名為 Glivec）",
+      "generic": "imatinib（製劑為 imatinib mesylate）",
+      "modality": "小分子藥物",
+      "class": "酪胺酸激酶抑制劑（TKI）",
+      "firstFDAApproval": "2001-05-10",
+      "country": "美國",
+      "approvalType": "加速核准（首次適應症）",
+      "initialIndication": "慢性骨髓性白血病（CML）的急性轉化期、加速期，或 interferon 治療失敗／不耐受的慢性期患者。",
+      "mechanismPlain": "抑制 BCR-ABL 等激酶，干擾驅動特定白血病細胞增生的異常訊號。",
+      "originType": "前身 Ciba-Geigy 發現 → 產學合作 → Novartis 開發",
+      "originator": "Ciba-Geigy 團隊，包括 Nicholas Lydon、Jürg Zimmermann 等；與 OHSU 的 Brian Druker 等合作",
+      "developmentAndCommercialization": "早期分子研究始於 Novartis 成立以前的 Ciba-Geigy；1996 年公司合併後由 Novartis 接續開發，與學術及臨床團隊推進。",
+      "historySummary": "Gleevec 將癌症的分子驅動因子變成藥物靶點，是標靶治療的代表。它也顯示前身公司的研究不應被抹去。",
+      "studentTakeaway": "從疾病基因到可用藥物，需要化學設計、生物學驗證與臨床試驗接力。",
+      "events": [
+        {
+          "year": 1990,
+          "type": "前史",
+          "text": "1990 年代前期，Ciba-Geigy 的激酶抑制研究與 Brian Druker 等的白血病研究接軌。",
+          "sources": [
+            "gleevec-nci",
+            "gleevec-novartis"
+          ],
+          "datePrecision": "decade"
+        },
+        {
+          "year": 1996,
+          "type": "合併",
+          "text": "Ciba-Geigy 與 Sandoz 合併成立 Novartis，延續候選分子研發。",
+          "sources": [
+            "gleevec-novartis"
+          ]
+        },
+        {
+          "year": 2001,
+          "date": "2001-05-10",
+          "type": "核准",
+          "text": "FDA 加速核准 Gleevec。",
+          "sources": [
+            "gleevec-fda"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "gleevec-fda",
+          "title": "FDA 作者：Gleevec 加速核准與孤兒藥監管史",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/12401900/",
+          "supports": "2001-05-10、初始適應症及加速核准"
+        },
+        {
+          "id": "gleevec-fda-record",
+          "title": "FDA：Gleevec 臨床審查文件",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2002/21-335S004_Gleevec_medr_P1.pdf",
+          "supports": "確認首次核准 2001-05-10"
+        },
+        {
+          "id": "gleevec-nci",
+          "title": "美國 NCI：Gleevec 如何改變白血病治療",
+          "url": "https://www.cancer.gov/research/progress/discovery/gleevec",
+          "supports": "BCR-ABL 靶點；Lydon 與 Druker 合作脈絡"
+        },
+        {
+          "id": "gleevec-novartis",
+          "title": "Novartis：25 年歷史（Gleevec 與 Ciba-Geigy）",
+          "url": "https://www.novartis.com/sites/novartis_ch/files/25-years-novartis.pdf",
+          "supports": "Ciba-Geigy 起源與 1996 合併前後接續研發"
+        },
+        {
+          "id": "gleevec-zimmermann",
+          "title": "Novartis：合作創新的 Gleevec 案例",
+          "url": "https://live.novartis.com/en/article/stronger-together",
+          "supports": "Zimmermann、Matter 與 Druker 的角色"
+        }
+      ]
+    },
+    {
+      "id": "kymriah",
+      "companyId": "novartis",
+      "company": "Novartis 諾華／Penn／CHOP",
+      "brand": "Kymriah",
+      "generic": "tisagenlecleucel",
+      "modality": "自體 CAR-T 細胞治療",
+      "class": "CD19 導向基因改造 T 細胞",
+      "firstFDAApproval": "2017-08-30",
+      "country": "美國",
+      "approvalType": "細胞／基因治療核准",
+      "initialIndication": "25 歲以下（含 25 歲）難治型，或第二次及之後復發的 B 細胞前驅急性淋巴性白血病（ALL）。",
+      "mechanismPlain": "取用患者自己的 T 細胞並加上可辨識 CD19 的嵌合抗原受體，製成個人化細胞治療產品。",
+      "originType": "學術研究 → 授權及產學共同開發",
+      "originator": "University of Pennsylvania（Penn）與 Children’s Hospital of Philadelphia（CHOP）的研究及臨床團隊",
+      "developmentAndCommercialization": "Penn 與 Novartis 2012 年建立全球合作，進一步研發、製造與商業化；FDA 核准授予 Novartis。",
+      "historySummary": "Kymriah 是美國首個獲 FDA 核准的 CAR-T 治療案例。創新不只在分子，也包含把病人的細胞製成可靠、可供應的產品。",
+      "studentTakeaway": "大學技術授權與製造能力，能把個別醫院的研究轉成跨地區治療。",
+      "events": [
+        {
+          "year": 2012,
+          "type": "合作／授權",
+          "text": "Penn 與 Novartis 建立全球 CAR-T 研發與商業化合作。",
+          "sources": [
+            "kymriah-penn"
+          ]
+        },
+        {
+          "year": 2017,
+          "date": "2017-08-30",
+          "type": "核准",
+          "text": "FDA 核准 Kymriah，用於指定兒童與年輕成人 B-ALL。",
+          "sources": [
+            "kymriah-fda",
+            "kymriah-penn"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "kymriah-fda",
+          "title": "FDA：Kymriah 產品及核准紀錄",
+          "url": "https://www.fda.gov/vaccines-blood-biologics/cellular-gene-therapy-products/kymriah",
+          "supports": "產品名、細胞類型、2017 核准函與適應症"
+        },
+        {
+          "id": "kymriah-fda-letter",
+          "title": "FDA：2017-08-30 Kymriah 核准函",
+          "url": "https://www.fda.gov/media/106989/download?attachment=",
+          "supports": "原始核准日期與核准內容"
+        },
+        {
+          "id": "kymriah-penn",
+          "title": "Penn Medicine：Penn 與 CHOP 開發的細胞療法獲 FDA 核准",
+          "url": "https://www.pennmedicine.org/news/fda-approves-personalized-cellular-therapy-for-advanced-leukemia",
+          "supports": "學術來源、2012 合作、授權關係、2017 核准"
+        },
+        {
+          "id": "kymriah-license",
+          "title": "Penn Center for Innovation：Kymriah 合作與技轉案例",
+          "url": "https://pci.upenn.edu/kymriah-success-story/",
+          "supports": "產學合作與製造、轉譯技術安排"
+        }
+      ]
+    },
+    {
+      "id": "ozempic",
+      "companyId": "novo",
+      "company": "Novo Nordisk 諾和諾德",
+      "brand": "Ozempic（本案例為注射產品）",
+      "generic": "semaglutide",
+      "modality": "胜肽藥物",
+      "class": "GLP-1 受體促效劑",
+      "firstFDAApproval": "2017-12-05",
+      "country": "美國",
+      "approvalType": "新藥核准",
+      "initialIndication": "配合飲食與運動，改善成人第二型糖尿病的血糖控制。",
+      "mechanismPlain": "模擬 GLP-1 的作用；藥物工程設計讓分子較不易被分解，並延長在體內的作用時間。",
+      "originType": "Novo Nordisk 內部胜肽發現與開發",
+      "originator": "Novo Nordisk 研究團隊，包括 Jesper Lau、Paw Bloch、Thomas Kruse、Lotte Bjerre Knudsen 等",
+      "developmentAndCommercialization": "公司透過 GLP-1 類似物與脂肪酸側鏈設計，選出 semaglutide 並推進臨床開發。",
+      "historySummary": "Ozempic 展示既有荷爾蒙生物學如何透過胜肽工程轉成新藥。後來的 Wegovy 使用同一活性分子，但品牌、適應症及核准資料不同。",
+      "studentTakeaway": "分子發明、品牌名稱與核准適應症是三個不同層次。",
+      "events": [
+        {
+          "year": 2015,
+          "type": "研究發表",
+          "text": "Novo Nordisk 團隊發表 semaglutide 分子設計與發現研究；發表年不等於發現起點。",
+          "sources": [
+            "semaglutide-discovery"
+          ]
+        },
+        {
+          "year": 2017,
+          "date": "2017-12-05",
+          "type": "核准",
+          "text": "FDA 首次核准 Ozempic 注射產品，用於成人第二型糖尿病。",
+          "sources": [
+            "ozempic-fda"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "ozempic-fda",
+          "title": "FDA：Ozempic 原始核准文件",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/209637Orig1s000Approv.pdf",
+          "supports": "2017-12-05、semaglutide、Novo Nordisk 與首次適應症"
+        },
+        {
+          "id": "semaglutide-discovery",
+          "title": "Lau 等：Semaglutide 發現原始研究（2015）",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26308095/",
+          "supports": "原始研究、Novo Nordisk 作者、GLP-1 分子改造與選藥"
+        }
+      ]
+    },
+    {
+      "id": "wegovy",
+      "companyId": "novo",
+      "company": "Novo Nordisk 諾和諾德",
+      "brand": "Wegovy（本案例為注射產品）",
+      "generic": "semaglutide（與 Ozempic 同一活性成分）",
+      "modality": "胜肽藥物",
+      "class": "GLP-1 受體促效劑",
+      "firstFDAApproval": "2021-06-04",
+      "country": "美國",
+      "approvalType": "新藥核准；2025 MASH 適應症為加速核准",
+      "initialIndication": "配合降低熱量飲食與增加活動，進行成人肥胖，或過重且至少有一項體重相關共病者的慢性體重管理。",
+      "mechanismPlain": "作用於 GLP-1 受體，參與食慾與能量攝取調節；與 Ozempic 共享 semaglutide 分子來源。",
+      "originType": "同一原創分子的不同適應症開發",
+      "originator": "Novo Nordisk 的 semaglutide 研發團隊",
+      "developmentAndCommercialization": "以 semaglutide 進行體重管理等適應症的專門臨床研究，建立不同品牌與監管申請。",
+      "historySummary": "Wegovy 不是另一個新分子的發明，而是 semaglutide 從糖尿病走向體重管理及其他適應症的開發案例。2025 年增加 MASH 適應症，仍要求後續確認臨床效益。",
+      "studentTakeaway": "同一分子擴大用途仍需要新的證據與核准，不能把一個品牌的用途直接套到另一品牌。",
+      "events": [
+        {
+          "year": 2021,
+          "date": "2021-06-04",
+          "type": "核准",
+          "text": "FDA 首次核准 Wegovy 注射產品的慢性體重管理用途。",
+          "sources": [
+            "wegovy-fda"
+          ]
+        },
+        {
+          "year": 2025,
+          "date": "2025-08-15",
+          "type": "擴適應症／加速核准",
+          "text": "FDA 加速核准用於無肝硬化且有中至重度肝纖維化的成人 MASH；需後續研究確認臨床效益。",
+          "sources": [
+            "wegovy-mash-letter"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "wegovy-fda",
+          "title": "FDA：Wegovy 2021 原始核准文件",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/215256Orig1s000Approv.pdf",
+          "supports": "2021-06-04 首核、成分與體重管理適應症"
+        },
+        {
+          "id": "semaglutide-discovery",
+          "title": "Lau 等：Semaglutide 發現原始研究（2015）",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26308095/",
+          "supports": "與 Ozempic 共享的分子來源"
+        },
+        {
+          "id": "wegovy-mash-letter",
+          "title": "FDA：Wegovy MASH 適應症 S-024 核准函",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/215256Orig1s024ltr.pdf",
+          "supports": "2025-08-15 電子簽章；MASH 限定族群；加速核准與驗證研究要求"
+        }
+      ]
+    },
+    {
+      "id": "entyvio",
+      "companyId": "takeda",
+      "company": "Takeda 武田",
+      "brand": "Entyvio",
+      "generic": "vedolizumab",
+      "modality": "單株抗體",
+      "class": "α4β7 integrin 拮抗抗體",
+      "firstFDAApproval": "2014-05-20",
+      "country": "美國",
+      "approvalType": "生物製劑核准（靜脈注射產品）",
+      "initialIndication": "既有治療反應不足等情況下，成人中至重度活動性潰瘍性結腸炎或克隆氏症。",
+      "mechanismPlain": "阻斷 α4β7 integrin 與其配體的作用，減少特定免疫細胞進入腸道組織。",
+      "originType": "學術抗體來源 → 早期生技開發 → 收購後接續開發",
+      "originator": "早期鼠抗體由 Andrew Lazarovits 等研究者發現；MRC／LifeArc 體系參與抗體人源化；LeukoSite／Millennium 接續研發",
+      "developmentAndCommercialization": "候選藥早期名稱包括 LDP-02／MLN02。Millennium 1999 年併購 LeukoSite；Takeda 2008 年收購 Millennium，接續後期開發並於 2014 年獲准上市。",
+      "historySummary": "Entyvio 不是 Takeda 在 2008 年收購後才從零發現的藥。早期學術抗體、抗體工程、生技公司的臨床計畫與武田後期開發，共同構成其歷史。",
+      "studentTakeaway": "『由某公司上市』與『由某公司原始發現』，常常是兩個答案。",
+      "events": [
+        {
+          "year": 1999,
+          "date": "1999-12",
+          "type": "併購",
+          "text": "Millennium 併購 LeukoSite，承接其臨床研發組合。",
+          "sources": [
+            "entyvio-millennium"
+          ]
+        },
+        {
+          "year": 2005,
+          "type": "研究發表",
+          "text": "MLN02 的潰瘍性結腸炎臨床研究發表，並致謝發現早期鼠抗體的 Andrew Lazarovits。",
+          "sources": [
+            "entyvio-nejm"
+          ]
+        },
+        {
+          "year": 2008,
+          "date": "2008-05-14",
+          "type": "併購",
+          "text": "Takeda 完成收購 Millennium。",
+          "sources": [
+            "entyvio-takeda-deal"
+          ]
+        },
+        {
+          "year": 2014,
+          "date": "2014-05-20",
+          "type": "核准",
+          "text": "FDA 核准 Entyvio 靜脈注射產品。",
+          "sources": [
+            "entyvio-fda",
+            "entyvio-launch"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "entyvio-fda",
+          "title": "FDA Purple Book：Entyvio",
+          "url": "https://purplebooksearch.fda.gov/index.cfm?blaNo=125476&event=productdetails",
+          "supports": "2014-05-20 首次核准及成分"
+        },
+        {
+          "id": "entyvio-launch",
+          "title": "Takeda：2014 Entyvio 美國核准公告",
+          "url": "https://www.takeda.com/en-us/newsroom/news-releases/2014/fda-approves-takedas-entyvio-vedolizumab-for-the-treatment-of-adults-with-moderately-to-severely-active-ulcerative-colitis-or-crohns-disease/",
+          "supports": "初始適應症、機轉及 Takeda 開發"
+        },
+        {
+          "id": "entyvio-nejm",
+          "title": "Feagan 等：抗 α4β7 人源化抗體潰瘍性結腸炎試驗（2005）",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa042982",
+          "supports": "MLN02 與早期鼠抗體研究歸屬"
+        },
+        {
+          "id": "entyvio-humanization",
+          "title": "LifeArc：抗體人源化成果資料",
+          "url": "https://www.lifearc.org/wp-content/uploads/2017/02/LifeArc-Antibody-Engineering-1.pdf",
+          "supports": "Entyvio 列於人源化藥物成果"
+        },
+        {
+          "id": "entyvio-millennium",
+          "title": "Millennium 2001 年報 SEC 文件",
+          "url": "https://www.sec.gov/Archives/edgar/data/1002637/000091205702009058/a2072025z10-k.htm",
+          "supports": "1999 LeukoSite 合併、MLN02 舊名 LDP-02 與開發計畫"
+        },
+        {
+          "id": "entyvio-takeda-deal",
+          "title": "Takeda／Millennium SEC 公告：收購完成",
+          "url": "https://www.sec.gov/Archives/edgar/data/1002637/000110465908033222/a08-14414_4ex99d1.htm",
+          "supports": "2008-05-14 收購完成"
+        }
+      ]
+    },
+    {
+      "id": "takhzyro",
+      "companyId": "takeda",
+      "company": "Takeda 武田（2019 年承接）",
+      "brand": "Takhzyro",
+      "generic": "lanadelumab；美國：lanadelumab-flyo",
+      "modality": "單株抗體",
+      "class": "血漿 kallikrein 抑制抗體",
+      "firstFDAApproval": "2018-08-23",
+      "country": "美國",
+      "approvalType": "生物製劑核准",
+      "initialIndication": "預防 12 歲以上遺傳性血管性水腫（HAE）患者的發作。",
+      "mechanismPlain": "抑制血漿 kallikrein，減少導致腫脹發作之 bradykinin 路徑的過度活化。",
+      "originType": "Dyax 發現 → Shire 收購與開發 → Takeda 收購",
+      "originator": "Dyax 的抗體研發團隊；早期代號 DX-2930",
+      "developmentAndCommercialization": "Shire 於 2016 年收購 Dyax，Takhzyro 在 2018 年 Shire 時期首獲 FDA 核准；Takeda 於 2019 年收購 Shire 後承接產品。",
+      "historySummary": "Takhzyro 的 2018 首次核准比 Takeda 收購 Shire 更早。把 2018 核准寫成 Takeda 自主原創成果，會顛倒時間順序。",
+      "studentTakeaway": "先把發現、收購、核准排在時間線上，才能正確理解藥廠的貢獻。",
+      "events": [
+        {
+          "year": 2014,
+          "type": "研究發表",
+          "text": "Dyax 團隊發表 DX-2930 抗體的發現與機轉研究。",
+          "sources": [
+            "takhzyro-discovery"
+          ]
+        },
+        {
+          "year": 2016,
+          "date": "2016-01-22",
+          "type": "併購",
+          "text": "Shire 完成收購 Dyax。",
+          "sources": [
+            "takhzyro-dyax-deal"
+          ]
+        },
+        {
+          "year": 2018,
+          "date": "2018-08-23",
+          "type": "核准",
+          "text": "Takhzyro 在 Shire 時期首次獲 FDA 核准。",
+          "sources": [
+            "takhzyro-fda",
+            "takhzyro-shire-results"
+          ]
+        },
+        {
+          "year": 2019,
+          "date": "2019-01-08",
+          "type": "併購",
+          "text": "Takeda 完成收購 Shire，承接 Takhzyro。",
+          "sources": [
+            "takhzyro-takeda-deal"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "takhzyro-fda",
+          "title": "FDA：2018 Takhzyro 核准公告",
+          "url": "https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-new-treatment-rare-hereditary-disease",
+          "supports": "2018-08-23、初始族群、預防用途與 kallikrein 機轉"
+        },
+        {
+          "id": "takhzyro-discovery",
+          "title": "Kenniston 等：DX-2930 原始抗體研究（2014）",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24970892/",
+          "supports": "Dyax 作者與 DX-2930 分子研究"
+        },
+        {
+          "id": "takhzyro-dyax-deal",
+          "title": "Shire：完成 Dyax 收購",
+          "url": "https://www.takeda.com/newsroom/shire-news-releases/2016/shire-completes-acquisition-of-dyax/",
+          "supports": "2016-01-22 收購完成與 DX-2930 承接"
+        },
+        {
+          "id": "takhzyro-shire-results",
+          "title": "Shire 2018 年度結果",
+          "url": "https://www.takeda.com/newsroom/newsreleases/2019/shires-full-year-2018-results/",
+          "supports": "2018 年 Takhzyro 核准屬收購前 Shire 業務"
+        },
+        {
+          "id": "takhzyro-takeda-deal",
+          "title": "Takeda：完成收購 Shire",
+          "url": "https://www.takeda.com/newsroom/shire-news-releases/2019/takeda-completes-acquisition/",
+          "supports": "正文確認日本日期 2019-01-08 收購完成"
+        },
+        {
+          "id": "takhzyro-fda-orphan",
+          "title": "FDA：Takhzyro 孤兒藥核准紀錄",
+          "url": "https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=397213",
+          "supports": "完整通用名 lanadelumab-flyo、2018 原始適應症"
+        }
+      ]
+    }
+  ],
+  "drugScope": "以下日期統一指美國 FDA 首次核准此產品，並非全球首次上市。早於 1996 年的發現列為前史；只收錄截至 2025 年的歷史事件。適應症為首次核准時的教育性摘要，不是完整仿單或用藥建議。公司欄表示歷史關聯，不保證今日各國商業權利歸屬。",
+  "cases": [
+    {
+      "id": "achaogen",
+      "name": "Achaogen",
+      "type": "Chapter 11 清算計畫",
+      "scale": "小型抗菌藥開發公司；不是大型跨國藥廠",
+      "intro": "Zemdri（plazomicin）取得核准，並未自動轉換成足以支持企業的收入。公司年報披露有限銷售、持續虧損與融資困難。",
+      "events": [
+        {
+          "date": "2018-06-25",
+          "text": "Zemdri 獲 FDA 核准；2018 年淨產品收入約 80 萬美元。這是單年銷售，非淨利。"
+        },
+        {
+          "date": "2019-04-15",
+          "text": "聲請 Chapter 11，於程序中尋求資產出售。"
+        },
+        {
+          "date": "2019-07-24",
+          "text": "Cipla 公告取得 Zemdri 全球權利（不含大中華區）等資產，不是買下整間公司。"
+        },
+        {
+          "date": "2020-05-29",
+          "text": "法院輸入清算計畫確認命令；剩餘資產由 Achaogen Plan Trust 處理。"
+        }
+      ],
+      "status": "已確認清算計畫與計畫信託安排，不能說原公司恢復正常營運。最新案卷未取得法院原件，不能宣稱整案已行政結案。",
+      "lesson": "藥物核准、商業收入與公司生存，是不同的關卡。這一案不能證明「所有抗生素都沒有市場」。",
+      "sources": [
+        "acha10k",
+        "achafda",
+        "acha8k",
+        "achacipla",
+        "achacourt"
+      ]
+    },
+    {
+      "id": "endo",
+      "name": "Endo",
+      "type": "重整 → 合併 → 分拆",
+      "scale": "專科藥與學名藥企業；舊法人與新營運公司須區分",
+      "intro": "公司於債務與大量鴉片類藥物相關訴訟壓力下尋求重整。其後的營運資產、原公司與原股東，不必得到相同結局。",
+      "events": [
+        {
+          "date": "2022-08-16",
+          "text": "Endo International 等聲請 Chapter 11；公司公告當時債務超過 80 億美元。"
+        },
+        {
+          "date": "2024-03-22 / 04-23",
+          "text": "法院輸入確認命令／計畫生效。新設 Endo, Inc. 承接大部分營運資產。"
+        },
+        {
+          "date": "2025-07-31",
+          "text": "Endo, Inc. 與 Mallinckrodt 完成合併。"
+        },
+        {
+          "date": "2025-11-10",
+          "text": "完成 Par Health 分拆；品牌治療藥業務以 Keenova Therapeutics 營運。"
+        }
+      ],
+      "status": "業務經重整、合併與分拆延續。舊債務人程序另計，法院現行大型案件清單仍列其後續主案 Branded Operations Holdings（22-22608）。",
+      "lesson": "法律界線：2024 年被判處刑事罰金與沒收的主體是 Endo Health Solutions Inc.，不能把所有相關民事指控或所有人一概說成定罪。",
+      "sources": [
+        "endofiling",
+        "endocourt",
+        "endoassets",
+        "endomerge",
+        "endospin",
+        "endodoj",
+        "megacases"
+      ]
+    },
+    {
+      "id": "purdue",
+      "name": "Purdue Pharma",
+      "type": "Chapter 11 公共利益導向轉換",
+      "scale": "與 OxyContin 密切相關的私人製藥公司",
+      "intro": "最高法院意見記載，1996–2019 年累計約 340 億美元收入，多數來自 OxyContin。這是多年累計收入，不是單年淨利或市值。",
+      "events": [
+        {
+          "date": "2019-09-15 / 2020-11-24",
+          "text": "聲請 Chapter 11；翌年 Purdue Pharma L.P. 就特定詐欺及反回扣共謀罪名認罪。"
+        },
+        {
+          "date": "2024-06-27",
+          "text": "最高法院撤銷下級法院判決並發回，關鍵是未經債權人同意釋免非破產第三人的請求。"
+        },
+        {
+          "date": "2025-11-18",
+          "text": "法院以席上裁決確認新破產計畫，不再是先前遭推翻的舊方案。"
+        },
+        {
+          "date": "2026-05-01（範圍外更新）",
+          "text": "Purdue 停止營運，Knoa Pharma 接手資產營運，由新的非營利基金會持有。"
+        }
+      ],
+      "status": "原 Purdue 已停止營運，Knoa 承接業務，Sackler 家族不參與新公司。停止營運、分期和解付款與法院行政結案是不同事情。",
+      "lesson": "公司認罪、民事指控、和解與法院裁決要分開。不能把公司認罪寫成家族每位成員都刑事定罪，也不能把整場公共衛生危機歸因於單一產品。",
+      "sources": [
+        "purduecourt",
+        "megacases",
+        "purdueplea",
+        "purdueplan",
+        "purdue2026"
+      ]
+    },
+    {
+      "id": "shire",
+      "name": "Shire / Takeda",
+      "type": "併購對照案例 · 不是破產",
+      "scale": "罕見疾病與專科治療企業的跨國整合",
+      "intro": "Shire 曾透過收購其他企業擴張，後來被 Takeda 收購。不再獨立上市，本身不等於清算、倒閉或研發失敗。",
+      "events": [
+        {
+          "date": "2016-06-03",
+          "text": "Shire 完成與 Baxalta 的整合，擴大罕見疾病業務。"
+        },
+        {
+          "date": "2018-05-08",
+          "text": "宣布現金加股份收購 Shire 的建議條款。"
+        },
+        {
+          "date": "2019-01-03 / 01-08",
+          "text": "Jersey 皇家法院核准安排計畫／收購方案生效，Takeda 完成交易。"
+        }
+      ],
+      "status": "這是已完成的企業收購，相關業務整合進 Takeda。法院參與 Scheme of Arrangement，不代表 Chapter 11 或破產清算。",
+      "lesson": "併購會改變研發組合和報表邊界。收購後營收跳升，不一定全是原有產品的自然成長。",
+      "sources": [
+        "shirebaxalta",
+        "shirescheme",
+        "takshire"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "year": 1996,
+      "title": "Lipitor · 核准",
+      "text": "FDA 核准 Lipitor；申請者為 Warner-Lambert 旗下 Parke-Davis。",
+      "sources": [
+        "lipitor-fda"
+      ]
+    },
+    {
+      "year": 1996,
+      "title": "Novartis 誕生",
+      "text": "Ciba-Geigy 與 Sandoz 合併，提醒我們：公司本身也會重新組合。",
+      "sources": [
+        "novhistory"
+      ]
+    },
+    {
+      "year": 1998,
+      "title": "Herceptin · 核准",
+      "text": "Herceptin 首次獲 FDA 核准。",
+      "sources": [
+        "herceptin-fda"
+      ]
+    },
+    {
+      "year": 2001,
+      "title": "Gleevec · 核准",
+      "text": "FDA 加速核准 Gleevec。",
+      "sources": [
+        "gleevec-fda"
+      ]
+    },
+    {
+      "year": 2006,
+      "title": "Januvia · 核准",
+      "text": "FDA 核准 Januvia。",
+      "sources": [
+        "januvia-fda"
+      ]
+    },
+    {
+      "year": 2009,
+      "title": "Keytruda · 合併",
+      "text": "Merck 與 Schering-Plough 完成合併，承接候選藥物。",
+      "sources": [
+        "keytruda-merck-deal"
+      ]
+    },
+    {
+      "year": 2014,
+      "title": "Entyvio · 核准",
+      "text": "FDA 核准 Entyvio 靜脈注射產品。",
+      "sources": [
+        "entyvio-fda",
+        "entyvio-launch"
+      ]
+    },
+    {
+      "year": 2017,
+      "title": "Kymriah · 核准",
+      "text": "FDA 核准 Kymriah，用於指定兒童與年輕成人 B-ALL。",
+      "sources": [
+        "kymriah-fda",
+        "kymriah-penn"
+      ]
+    },
+    {
+      "year": 2018,
+      "title": "Takhzyro · 核准",
+      "text": "Takhzyro 在 Shire 時期首次獲 FDA 核准。",
+      "sources": [
+        "takhzyro-fda",
+        "takhzyro-shire-results"
+      ]
+    },
+    {
+      "year": 2019,
+      "title": "Takeda 完成 Shire 收購",
+      "text": "企業版圖與財報範圍改變；收購不等於自行發現原有藥物。",
+      "sources": [
+        "takshire"
+      ]
+    },
+    {
+      "year": 2020,
+      "title": "Comirnaty · 緊急授權",
+      "text": "FDA 發出 Pfizer–BioNTech COVID-19 疫苗緊急使用授權。",
+      "sources": [
+        "comirnaty-fda"
+      ]
+    },
+    {
+      "year": 2021,
+      "title": "Wegovy · 核准",
+      "text": "FDA 首次核准 Wegovy 注射產品的慢性體重管理用途。",
+      "sources": [
+        "wegovy-fda"
+      ]
+    },
+    {
+      "year": 2023,
+      "title": "Novartis 分拆 Sandoz",
+      "text": "持續營業轉向創新藥，舊全集團與新範圍的營收不宜直接串接。",
+      "sources": [
+        "novsandoz"
+      ]
+    },
+    {
+      "year": 2025,
+      "title": "Endo 業務再分岔",
+      "text": "與 Mallinckrodt 合併後，Par Health 分拆，品牌治療藥業務以 Keenova 營運。",
+      "sources": [
+        "endospin"
+      ]
+    },
+    {
+      "year": 2025,
+      "title": "Wegovy · 擴適應症／加速核准",
+      "text": "FDA 加速核准用於無肝硬化且有中至重度肝纖維化的成人 MASH；需後續研究確認臨床效益。",
+      "sources": [
+        "wegovy-mash-letter"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "某藥品年銷售 100 億元。你可以直接推論什麼？",
+      "choices": [
+        "這項藥物淨賺了 100 億元",
+        "公司認列的該藥銷售額是 100 億元",
+        "這家公司總營收只有 100 億元"
+      ],
+      "answer": 1,
+      "explanation": "銷售額不是利潤。還須確認年度、幣別、地區、聯盟與產品組合口徑；未披露單藥成本，就無法由銷售推出單藥淨利。"
+    },
+    {
+      "question": "Lipitor 常與 Pfizer 聯想在一起，最精確的描述是？",
+      "choices": [
+        "Pfizer 從零發現並單獨開發",
+        "Parke-Davis 發現，後經合作與併購進入 Pfizer",
+        "一被收購，原始研發歸屬就改變"
+      ],
+      "answer": 1,
+      "explanation": "原始發現者是 Warner-Lambert 旗下 Parke-Davis。Pfizer 先參與共同推廣，2000 年收購 Warner-Lambert；2020 年相關 Upjohn 品牌再轉至 Viatris。"
+    },
+    {
+      "question": "看到企業申請 Chapter 11，哪一個結論最穩妥？",
+      "choices": [
+        "公司當天一定停止營運",
+        "原股東一定能保有原有權益",
+        "需要繼續查計畫、資產安排與最新程序"
+      ],
+      "answer": 2,
+      "explanation": "Chapter 11 可能涉及重整、資產出售，也可能核准清算計畫。申請日、確認日、生效日與結案日不同。"
+    },
+    {
+      "question": "Novo 的 DKK 數字比 Pfizer 的 USD 數字大，代表什麼？",
+      "choices": [
+        "可以直接證明 Novo 收入更多",
+        "不能未換匯及核對口徑就比較大小",
+        "只要同年就可以相加"
+      ],
+      "answer": 1,
+      "explanation": "幣別、期間與收入範圍不同。這裡刻意保留原幣，不做跨公司金額排名；Takeda 的財年也未與其他公司的曆年完全對齊。"
+    },
+    {
+      "question": "Ozempic 與 Wegovy 可以算兩個完全不同的分子發明嗎？",
+      "choices": [
+        "可以，品牌名不同就算不同分子",
+        "不行，兩者主要活性成分都是 semaglutide",
+        "可以，所以一定能自行互換"
+      ],
+      "answer": 1,
+      "explanation": "品牌、劑型、適應症與核准條件不等於活性成分發明數量。本文有 12 項品牌案例，但包含同成分品牌；不能因此自行互換用藥。"
+    }
+  ],
+  "sources": {
+    "pfe25": {
+      "title": "Pfizer 2025 Form 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/78003/000007800326000026/pfe-20251231.htm",
+      "note": "Consolidated Statements of Operations p.52; Note 17 Segment, Geographic and Other Revenue Information"
+    },
+    "mrk25": {
+      "title": "Merck & Co. 2025 Form 10-K",
+      "url": "https://www.merck.com/wp-content/uploads/sites/124/2026/02/MRK-12.31.2025-10K-FINAL.pdf",
+      "note": "printed p.1 Product Sales; printed p.77 Consolidated Statement of Income (PDF p.79)"
+    },
+    "roche25": {
+      "title": "Roche Finance Report 2025",
+      "url": "https://assets.roche.com/f/176343/x/fca190f63e/fb25e.pdf",
+      "note": "Finance in Brief, Key results; p.48 Roche Group consolidated income statement"
+    },
+    "roche25results": {
+      "title": "Roche 2025 full-year results",
+      "url": "https://www.roche.com/investors/updates/inv-update-2026-01-29",
+      "note": "Key figures; Pharmaceuticals sales; Top 20 best-selling pharmaceuticals"
+    },
+    "nov25": {
+      "title": "Novartis Annual Report 2025",
+      "url": "https://www.novartis.com/sites/novartis_com/files/novartis-annual-report-2025.pdf",
+      "note": "F-1 Consolidated income statements (PDF p.174); F-22 2025 top brands (PDF p.195); F-21 Net sales by core therapeutic area and established brands (Kymriah)"
+    },
+    "nvo25overview": {
+      "title": "Novo Nordisk Annual Report 2025: Five-year overview",
+      "url": "https://annualreport.novonordisk.com/2025/introducing-novo-nordisk/five-year-overview.html",
+      "note": "DKK million, 2025 column"
+    },
+    "nvo25performance": {
+      "title": "Novo Nordisk Annual Report 2025: Financial performance",
+      "url": "https://annualreport.novonordisk.com/2025/strategic-aspirations/financial-performance.html",
+      "note": "GLP-1-based therapies for type 2 diabetes; Development in costs and operating profit"
+    },
+    "tak24": {
+      "title": "Takeda FY2024 Form 20-F, year ended March 31, 2025",
+      "url": "https://assets-dam.takeda.com/image/upload/Global/Investor/form20-f/E_FY2024_Form_20-F.pdf",
+      "note": "F-5 Consolidated Statements of Profit or Loss; Note 4 F-24 Operating Segment and Revenue Information"
+    },
+    "pfeupjohn": {
+      "title": "Pfizer completes Upjohn transaction, 2020-11-16",
+      "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-transaction-combine-its-upjohn-business",
+      "note": ""
+    },
+    "pfeseagen": {
+      "title": "Pfizer completes acquisition of Seagen, 2023-12-14",
+      "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-acquisition-seagen",
+      "note": ""
+    },
+    "mrkorganon": {
+      "title": "Merck completes Organon spinoff, announced 2021-06-03",
+      "url": "https://www.merck.com/news/merck-announces-completion-of-organon-co-spinoff/",
+      "note": ""
+    },
+    "rochegenentech": {
+      "title": "Roche Finance Report 2020: Genentech transaction",
+      "url": "https://assets.roche.com/f/176343/4955b3bd03/fb20e.pdf",
+      "note": ""
+    },
+    "novhistory": {
+      "title": "Novartis company history",
+      "url": "https://www.novartis.com/uk-en/about/who-we-are/company-history",
+      "note": ""
+    },
+    "novsandoz": {
+      "title": "Novartis completes Sandoz spinoff, 2023-10-04",
+      "url": "https://www.novartis.com/news/media-releases/novartis-executes-sandoz-spin-completing-strategic-transformation-leading-focused-innovative-medicines-company",
+      "note": ""
+    },
+    "nvo2000": {
+      "title": "Novo Nordisk Annual Report 2000",
+      "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/annual_report/2001/20010221_Annual%20Report%202000_UK.pdf",
+      "note": "Letter discussing Novozymes demerger and listing on 17 November 2000"
+    },
+    "takshire": {
+      "title": "Takeda completes Shire acquisition, 2019-01-08",
+      "url": "https://www.takeda.com/newsroom/newsreleases/2019/takeda-completes-acquisition-of-shire-becoming-a-global-values-based-rd-driven-biopharmaceutical-leader/",
+      "note": ""
+    },
+    "pfe22": {
+      "title": "Pfizer 2022 Annual Report: Financial Performance",
+      "url": "https://www.pfizer.com/sites/default/files/investors/financial_reports/annual_reports/2022/performance/",
+      "note": "Three-year summary 2022, 2021, 2020; net income definition footnote 1"
+    },
+    "nvo15": {
+      "title": "Novo Nordisk Financial Statement for 2015",
+      "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/irmaterial/quarterly_financial_reports/2016/20160203_financial%20statement_FY%202015_UK.pdf",
+      "note": "p.4 consolidated profit and loss, 2015 column"
+    },
+    "tak19": {
+      "title": "Takeda FY2019 consolidated financial statements, year ended March 31, 2020",
+      "url": "https://assets-dam.takeda.com/raw/upload/v1674590278/legacy-dotcom/siteassets/system/investors/report/quarterlyannouncements/fy2019/qr2019_q4_f_en.pdf",
+      "note": "p.1 consolidated operating results"
+    },
+    "tak19boundary": {
+      "title": "Takeda FY2019 Q1 financial results presentation",
+      "url": "https://www.takeda.com/siteassets/system/investors/report/quarterlyannouncements/fy2019/qr2019_q1_p01_en.pdf",
+      "note": "Shire acquisition and consolidated results comparability disclaimer"
+    },
+    "lipitor-fda": {
+      "title": "FDA：Lipitor 1996 原始核准函",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/pre96/020702_s000.pdf",
+      "note": "1996-12-17；原始申請者、成分與適應症"
+    },
+    "lipitor-history": {
+      "title": "Pfizer：Warner-Lambert 歷史",
+      "url": "https://www.pfizer.com/about/history/pfizer_warner_lambert",
+      "note": "Parke-Davis 發現；1996 合作推廣；2000 年 6 月收購完成"
+    },
+    "pfizer-upjohn": {
+      "title": "Pfizer SEC 公告：完成 Upjohn 與 Mylan 合併交易",
+      "url": "https://www.sec.gov/Archives/edgar/data/78003/000119312520294847/d82880dex991.htm",
+      "note": "2020-11-16 交易完成"
+    },
+    "viatris-brands": {
+      "title": "Viatris 年報：Upjohn 品牌組合",
+      "url": "https://investor.viatris.com/static-files/80c709c0-39d1-46e4-8c5e-a9cc24e2a071",
+      "note": "Lipitor 在 Upjohn 業務組合中"
+    },
+    "comirnaty-fda": {
+      "title": "FDA：首款 COVID-19 疫苗正式核准",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-covid-19-vaccine",
+      "note": "EUA 與正式核准日期、原始核准族群、mRNA 機轉與申請人"
+    },
+    "comirnaty-collaboration": {
+      "title": "BioNTech：與 Pfizer 合作開發 COVID-19 疫苗詳情",
+      "url": "https://www.biontech.com/int/en/home/mediaroom/news/press-releases/2020/04/pfizer-and-biontech-announce-further-details-collaboration.html",
+      "note": "BioNTech mRNA 計畫來源；2020-03-17 宣布合作與開發分工"
+    },
+    "comirnaty-ema": {
+      "title": "EMA：Comirnaty 產品與歷史資料",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/comirnaty",
+      "note": "原始活性成分 tozinameran；原始版本與變異株更新版本的區分"
+    },
+    "keytruda-fda": {
+      "title": "FDA：Keytruda 2014 原始核准文件",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2014/125514Orig1s000Approv.pdf",
+      "note": "首核日期、成分、申請者、加速核准與適應症"
+    },
+    "keytruda-lifearc": {
+      "title": "LifeArc：Keytruda 的抗體發現與人源化",
+      "url": "https://www.lifearc.org/keytruda-the-best-selling-drug-that-nearly-wasnt/",
+      "note": "Organon 發現 PD109.A；LifeArc/MRC Technology 人源化；後由 Merck 承接"
+    },
+    "keytruda-organon-deal": {
+      "title": "Schering-Plough SEC 8-K：Organon 收購完成",
+      "url": "https://www.sec.gov/Archives/edgar/data/310158/000095012307015913/y43140e8vk.htm",
+      "note": "2007-11-19 收購完成"
+    },
+    "keytruda-merck-deal": {
+      "title": "Merck SEC 年報：2009 合併",
+      "url": "https://www.sec.gov/Archives/edgar/vprr/1001/10011519.pdf",
+      "note": "2009-11-03 合併完成"
+    },
+    "januvia-fda": {
+      "title": "FDA：Januvia 原始核准函",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2006/021995s000ltr.pdf",
+      "note": "電子簽章 2006-10-16；成分、申請者與原始適應症"
+    },
+    "januvia-discovery": {
+      "title": "Thornberry、Weber：Januvia 發現研究（2007）",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17352677/",
+      "note": "Merck 1999 年計畫起點及 sitagliptin 發現歷程"
+    },
+    "herceptin-fda": {
+      "title": "FDA Purple Book：Herceptin",
+      "url": "https://purplebooksearch.fda.gov/index.cfm?blaNo=103792&event=productdetails",
+      "note": "1998-09-25 首核、trastuzumab、Genentech 申請者"
+    },
+    "herceptin-story": {
+      "title": "Genentech：HER2 與 Herceptin 研發史",
+      "url": "https://www.gene.com/stories/her2/",
+      "note": "HER2、Genentech 與 Slamon 合作、抗體人源化及初期乳癌用途"
+    },
+    "herceptin-ucla": {
+      "title": "UCLA：Dennis Slamon 研究與 Herceptin",
+      "url": "https://www.uclahealth.org/cancer/about-us/meet-our-leadership/dennis-slamon",
+      "note": "學術與臨床研究貢獻"
+    },
+    "roche-history": {
+      "title": "Roche：公司歷史",
+      "url": "https://www.roche.ch/en/about/our-history",
+      "note": "Genentech 1990 多數持股、2009 剩餘股權收購"
+    },
+    "hemlibra-fda": {
+      "title": "FDA 孤兒藥核准紀錄：emicizumab-kxwh",
+      "url": "https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=416913",
+      "note": "首次核准日期、原始與後續適應症"
+    },
+    "hemlibra-origin": {
+      "title": "Roche：Hemlibra 與 HAVEN 6 資料",
+      "url": "https://assets.roche.com/f/176343/e0ed069a4d/01-13122021_mr_haven6_en.pdf",
+      "note": "Chugai 創製；三家公司共同開發；機轉與美國商業化"
+    },
+    "chugai-roche": {
+      "title": "Chugai：與 Roche 的聯盟歷史",
+      "url": "https://www.chugai-pharm.co.jp/english/profile/overview/history/history05.html",
+      "note": "2002 年加入 Roche 集團；保持獨立營運模式"
+    },
+    "hemlibra-expanded": {
+      "title": "FDA：2018 Hemlibra 擴大核准",
+      "url": "https://www.fda.gov/drugs/drug-approvals-and-databases/fda-approves-emicizumab-kxwh-hemophilia-or-without-factor-viii-inhibitors",
+      "note": "2018-10-04 擴適應症"
+    },
+    "gleevec-fda": {
+      "title": "FDA 作者：Gleevec 加速核准與孤兒藥監管史",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12401900/",
+      "note": "2001-05-10、初始適應症及加速核准"
+    },
+    "gleevec-fda-record": {
+      "title": "FDA：Gleevec 臨床審查文件",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2002/21-335S004_Gleevec_medr_P1.pdf",
+      "note": "確認首次核准 2001-05-10"
+    },
+    "gleevec-nci": {
+      "title": "美國 NCI：Gleevec 如何改變白血病治療",
+      "url": "https://www.cancer.gov/research/progress/discovery/gleevec",
+      "note": "BCR-ABL 靶點；Lydon 與 Druker 合作脈絡"
+    },
+    "gleevec-novartis": {
+      "title": "Novartis：25 年歷史（Gleevec 與 Ciba-Geigy）",
+      "url": "https://www.novartis.com/sites/novartis_ch/files/25-years-novartis.pdf",
+      "note": "Ciba-Geigy 起源與 1996 合併前後接續研發"
+    },
+    "gleevec-zimmermann": {
+      "title": "Novartis：合作創新的 Gleevec 案例",
+      "url": "https://live.novartis.com/en/article/stronger-together",
+      "note": "Zimmermann、Matter 與 Druker 的角色"
+    },
+    "kymriah-fda": {
+      "title": "FDA：Kymriah 產品及核准紀錄",
+      "url": "https://www.fda.gov/vaccines-blood-biologics/cellular-gene-therapy-products/kymriah",
+      "note": "產品名、細胞類型、2017 核准函與適應症"
+    },
+    "kymriah-fda-letter": {
+      "title": "FDA：2017-08-30 Kymriah 核准函",
+      "url": "https://www.fda.gov/media/106989/download?attachment=",
+      "note": "原始核准日期與核准內容"
+    },
+    "kymriah-penn": {
+      "title": "Penn Medicine：Penn 與 CHOP 開發的細胞療法獲 FDA 核准",
+      "url": "https://www.pennmedicine.org/news/fda-approves-personalized-cellular-therapy-for-advanced-leukemia",
+      "note": "學術來源、2012 合作、授權關係、2017 核准"
+    },
+    "kymriah-license": {
+      "title": "Penn Center for Innovation：Kymriah 合作與技轉案例",
+      "url": "https://pci.upenn.edu/kymriah-success-story/",
+      "note": "產學合作與製造、轉譯技術安排"
+    },
+    "ozempic-fda": {
+      "title": "FDA：Ozempic 原始核准文件",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2017/209637Orig1s000Approv.pdf",
+      "note": "2017-12-05、semaglutide、Novo Nordisk 與首次適應症"
+    },
+    "semaglutide-discovery": {
+      "title": "Lau 等：Semaglutide 發現原始研究（2015）",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26308095/",
+      "note": "與 Ozempic 共享的分子來源"
+    },
+    "wegovy-fda": {
+      "title": "FDA：Wegovy 2021 原始核准文件",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2021/215256Orig1s000Approv.pdf",
+      "note": "2021-06-04 首核、成分與體重管理適應症"
+    },
+    "wegovy-mash-letter": {
+      "title": "FDA：Wegovy MASH 適應症 S-024 核准函",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/215256Orig1s024ltr.pdf",
+      "note": "2025-08-15 電子簽章；MASH 限定族群；加速核准與驗證研究要求"
+    },
+    "entyvio-fda": {
+      "title": "FDA Purple Book：Entyvio",
+      "url": "https://purplebooksearch.fda.gov/index.cfm?blaNo=125476&event=productdetails",
+      "note": "2014-05-20 首次核准及成分"
+    },
+    "entyvio-launch": {
+      "title": "Takeda：2014 Entyvio 美國核准公告",
+      "url": "https://www.takeda.com/en-us/newsroom/news-releases/2014/fda-approves-takedas-entyvio-vedolizumab-for-the-treatment-of-adults-with-moderately-to-severely-active-ulcerative-colitis-or-crohns-disease/",
+      "note": "初始適應症、機轉及 Takeda 開發"
+    },
+    "entyvio-nejm": {
+      "title": "Feagan 等：抗 α4β7 人源化抗體潰瘍性結腸炎試驗（2005）",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa042982",
+      "note": "MLN02 與早期鼠抗體研究歸屬"
+    },
+    "entyvio-humanization": {
+      "title": "LifeArc：抗體人源化成果資料",
+      "url": "https://www.lifearc.org/wp-content/uploads/2017/02/LifeArc-Antibody-Engineering-1.pdf",
+      "note": "Entyvio 列於人源化藥物成果"
+    },
+    "entyvio-millennium": {
+      "title": "Millennium 2001 年報 SEC 文件",
+      "url": "https://www.sec.gov/Archives/edgar/data/1002637/000091205702009058/a2072025z10-k.htm",
+      "note": "1999 LeukoSite 合併、MLN02 舊名 LDP-02 與開發計畫"
+    },
+    "entyvio-takeda-deal": {
+      "title": "Takeda／Millennium SEC 公告：收購完成",
+      "url": "https://www.sec.gov/Archives/edgar/data/1002637/000110465908033222/a08-14414_4ex99d1.htm",
+      "note": "2008-05-14 收購完成"
+    },
+    "takhzyro-fda": {
+      "title": "FDA：2018 Takhzyro 核准公告",
+      "url": "https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-new-treatment-rare-hereditary-disease",
+      "note": "2018-08-23、初始族群、預防用途與 kallikrein 機轉"
+    },
+    "takhzyro-discovery": {
+      "title": "Kenniston 等：DX-2930 原始抗體研究（2014）",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24970892/",
+      "note": "Dyax 作者與 DX-2930 分子研究"
+    },
+    "takhzyro-dyax-deal": {
+      "title": "Shire：完成 Dyax 收購",
+      "url": "https://www.takeda.com/newsroom/shire-news-releases/2016/shire-completes-acquisition-of-dyax/",
+      "note": "2016-01-22 收購完成與 DX-2930 承接"
+    },
+    "takhzyro-shire-results": {
+      "title": "Shire 2018 年度結果",
+      "url": "https://www.takeda.com/newsroom/newsreleases/2019/shires-full-year-2018-results/",
+      "note": "2018 年 Takhzyro 核准屬收購前 Shire 業務"
+    },
+    "takhzyro-takeda-deal": {
+      "title": "Takeda：完成收購 Shire",
+      "url": "https://www.takeda.com/newsroom/shire-news-releases/2019/takeda-completes-acquisition/",
+      "note": "正文確認日本日期 2019-01-08 收購完成"
+    },
+    "takhzyro-fda-orphan": {
+      "title": "FDA：Takhzyro 孤兒藥核准紀錄",
+      "url": "https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=397213",
+      "note": "完整通用名 lanadelumab-flyo、2018 原始適應症"
+    },
+    "acha10k": {
+      "title": "Achaogen 2018 Form 10-K：銷售與持續經營",
+      "url": "https://www.sec.gov/Archives/edgar/data/1301501/000156459019010412/akao-10k_20181231.htm",
+      "note": ""
+    },
+    "achafda": {
+      "title": "FDA 2018 年新藥核准清單",
+      "url": "https://www.fda.gov/media/124807/download",
+      "note": ""
+    },
+    "acha8k": {
+      "title": "Achaogen 2019 8-K：Chapter 11",
+      "url": "https://www.sec.gov/Archives/edgar/data/1301501/000156459019011576/akao-8k_20190411.htm",
+      "note": ""
+    },
+    "achacipla": {
+      "title": "Cipla 2019 年資產取得公告",
+      "url": "https://www.cipla.com/sites/default/files/press-release-zembri.pdf",
+      "note": ""
+    },
+    "achacourt": {
+      "title": "德拉瓦破產法院 2023 意見：回顧清算計畫，第 6 頁",
+      "url": "https://www.deb.uscourts.gov/sites/deb/files/opinions/achaogen-cipla-opinion-and-order_0.pdf",
+      "note": ""
+    },
+    "endofiling": {
+      "title": "Endo 2022 聲請 Chapter 11 公告（SEC）",
+      "url": "https://www.sec.gov/Archives/edgar/data/1593034/000119312522222687/d394120dex991.htm",
+      "note": ""
+    },
+    "endocourt": {
+      "title": "紐約南區破產法院：確認命令及生效日，第 4 頁",
+      "url": "https://www.nysb.uscourts.gov/sites/default/files/opinions/313280_4786_opinion.pdf",
+      "note": ""
+    },
+    "endoassets": {
+      "title": "Endo 2024 Q2：新公司承接資產",
+      "url": "https://investor.endo.com/2024-08-27-ENDO-REPORTS-SECOND-QUARTER-2024-FINANCIAL-RESULTS",
+      "note": ""
+    },
+    "endomerge": {
+      "title": "Endo 現行公司頁：2025-07-31 合併",
+      "url": "https://www.endo.com/",
+      "note": ""
+    },
+    "endospin": {
+      "title": "Mallinckrodt：Par Health 分拆與 Keenova",
+      "url": "https://ir.mallinckrodt.com/news-releases/news-release-details/mallinckrodt-completes-spin-par-health-introduces-keenova/",
+      "note": ""
+    },
+    "endodoj": {
+      "title": "美國司法部：EHSI 2024 刑事判刑",
+      "url": "https://www.justice.gov/archives/opa/pr/opioid-manufacturer-endo-health-solutions-inc-ordered-pay-1536b-criminal-fines-and",
+      "note": ""
+    },
+    "megacases": {
+      "title": "紐約南區破產法院：大型案件清單",
+      "url": "https://www.nysb.uscourts.gov/megacases",
+      "note": ""
+    },
+    "purduecourt": {
+      "title": "美國最高法院 Harrington v. Purdue（2024）",
+      "url": "https://www.supremecourt.gov/opinions/23pdf/23-124_8nk0.pdf",
+      "note": ""
+    },
+    "purdueplea": {
+      "title": "美國司法部：Purdue 2020 認罪",
+      "url": "https://www.justice.gov/usao-nj/pr/opioid-manufacturer-purdue-pharma-admits-guilt-fraud-and-kickback-conspiracies",
+      "note": ""
+    },
+    "purdueplan": {
+      "title": "紐約州檢察長：2025 新計畫獲准",
+      "url": "https://ag.ny.gov/press-release/2025/attorney-general-james-secures-approval-purdue-bankruptcy-plan",
+      "note": ""
+    },
+    "purdue2026": {
+      "title": "紐約州檢察長：2026-05-01 Purdue 停止營運與 Knoa 接手",
+      "url": "https://ag.ny.gov/press-release/2026/attorney-general-james-announces-shutdown-opioid-manufacturer-purdue-pharma",
+      "note": ""
+    },
+    "shirebaxalta": {
+      "title": "Shire：2016 完成 Baxalta 整合",
+      "url": "https://www.takeda.com/newsroom/shire-news-releases/2016/baxalta-now-part-of-shire/",
+      "note": ""
+    },
+    "shirescheme": {
+      "title": "Shire：2019 收購安排計畫生效",
+      "url": "https://www.takeda.com/newsroom/shire-news-releases/2019/qppcx8/",
+      "note": ""
+    },
+    "fdaprocess": {
+      "title": "FDA 藥物開發流程",
+      "url": "https://www.fda.gov/patients/learn-about-drug-and-device-approvals/drug-development-process",
+      "note": ""
+    },
+    "fdatrials": {
+      "title": "FDA 臨床研究階段",
+      "url": "https://www.fda.gov/patients/drug-development-process/step-3-clinical-research",
+      "note": ""
+    },
+    "fdafailure": {
+      "title": "FDA：二期與三期結果不同的 22 個案例，torcetrapib 見第 26 頁",
+      "url": "https://www.fda.gov/media/102332/download",
+      "note": ""
+    },
+    "fdapatents": {
+      "title": "FDA：專利與專屬權",
+      "url": "https://www.fda.gov/drugs/development-approval-process-drugs/frequently-asked-questions-patents-and-exclusivity",
+      "note": ""
+    },
+    "biosimilar": {
+      "title": "FDA：生物相似性藥品基礎",
+      "url": "https://www.fda.gov/drugs/biosimilars/biosimilars-basics-patients",
+      "note": ""
+    },
+    "whoaccess": {
+      "title": "WHO：醫藥與健康產品可近性",
+      "url": "https://www.who.int/our-work/access-to-medicines-and-health-products",
+      "note": ""
+    },
+    "whoprice": {
+      "title": "WHO 藥品定價政策指南（2020）",
+      "url": "https://www.who.int/publications/i/item/9789240011878",
+      "note": ""
+    },
+    "nci2017": {
+      "title": "NCI：首項 CAR-T 治療的臨床轉譯",
+      "url": "https://www.cancer.gov/news-events/cancer-currents-blog/2017/tisagenlecleucel-fda-childhood-leukemia",
+      "note": ""
+    },
+    "courtbasics": {
+      "title": "美國法院：Chapter 11 基本概念",
+      "url": "https://www.uscourts.gov/court-programs/bankruptcy/bankruptcy-basics/chapter-11-bankruptcy-basics",
+      "note": ""
+    }
+  }
+}
